@@ -1,0 +1,29 @@
+{
+  "orders_per_day": 45,
+  "workdays_per_month": 22,
+  "minutes_manual": 15,
+  "minutes_auto_review": 2,
+  "minutes_escalation": 8,
+  "loaded_hourly_rate_rub": 700,
+  "baseline_error_rate": "0.08",
+  "share_errors_costly": "0.30",
+  "cost_per_costly_error_rub": 1800,
+  "auto_residual_error_rate": "0.02",
+  "escalation_error_rate": "0.04",
+  "pilot_fixed_cost_rub": 180000,
+  "monthly_model_cost_rub": 15000,
+  "monthly_support_cost_rub": 20000,
+  "interpretation": "Доли черновиков и ставки ошибок — гипотеза для решения о пилоте. Их назвал контур планирования, а не контрольный ящик: ящик специально собран из сбоев. База 45 заявок в день, 15 минут и 8% ошибок — слова заказчика на старте, до пилота по журналу рекламаций не сверенные.",
+  "scenarios": [
+    {
+      "id": "target",
+      "title": "Целевой контур",
+      "share_auto": "0.60"
+    },
+    {
+      "id": "cautious",
+      "title": "Осторожный контур",
+      "share_auto": "0.40"
+    }
+  ]
+}

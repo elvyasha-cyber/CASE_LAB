@@ -1,0 +1,52 @@
+[
+  {
+    "id": "CLT-LADOGA",
+    "legal_name": "ООО «Ладога Офис»",
+    "inn": "7801000001",
+    "email_domains": ["ladoga-office.example"],
+    "aliases": ["Ладога Офис", "ООО Ладога Офис"],
+    "credit_limit_rub": 150000,
+    "addresses": [
+      {
+        "id": "ADDR-LIG",
+        "full": "Санкт-Петербург, Лиговский пр., д. 50",
+        "hints": ["лиговский 50", "лиговский пр"]
+      },
+      {
+        "id": "ADDR-NEV",
+        "full": "Санкт-Петербург, Невский пр., д. 100",
+        "hints": ["невский 100", "невский пр"]
+      }
+    ]
+  },
+  {
+    "id": "CLT-MOROZOVA",
+    "legal_name": "ИП Морозова А.В.",
+    "inn": "470300000002",
+    "email_domains": ["morozova.example"],
+    "aliases": ["Морозова", "Морозова А.В."],
+    "credit_limit_rub": 40000,
+    "addresses": [
+      {
+        "id": "ADDR-VSV",
+        "full": "Ленинградская область, Всеволожск, Дорога Жизни, д. 12",
+        "hints": ["всеволожск", "дорога жизни"]
+      }
+    ]
+  },
+  {
+    "id": "CLT-PORT",
+    "legal_name": "ООО «Невский Порт Сервис»",
+    "inn": "7802000002",
+    "email_domains": ["port-service.example"],
+    "aliases": ["Порт Сервис", "Невский Порт Сервис"],
+    "credit_limit_rub": 300000,
+    "addresses": [
+      {
+        "id": "ADDR-KAN",
+        "full": "Санкт-Петербург, Канонерский остров, д. 5",
+        "hints": ["канонерский"]
+      }
+    ]
+  }
+]

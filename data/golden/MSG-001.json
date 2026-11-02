@@ -1,0 +1,13 @@
+{
+  "message_id": "MSG-001",
+  "expected_decision": "create_draft",
+  "reason_codes": [],
+  "client_id": "CLT-LADOGA",
+  "action_id": "ORD-2026-0001",
+  "lines": [
+    {"sku": "SKU-A4-500", "qty": 10},
+    {"sku": "SKU-TISSUE", "qty": 20}
+  ],
+  "total_rub": 6100,
+  "correction_to_skus": []
+}

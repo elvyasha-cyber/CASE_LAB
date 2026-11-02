@@ -1,0 +1,37 @@
+{
+  "model": "fixture/simulation",
+  "note": "Контрольная фикстура симуляции, не лог боевой модели. Ответ согласован с письмом. Поле price добавлено нарочно: схема его отбрасывает.",
+  "extraction": {
+    "intent": "order",
+    "confidence": "high",
+    "assumptions": [],
+    "fields": {
+      "client_name": "ООО «Ладога Офис»",
+      "client_inn": "7801000001",
+      "delivery_address": "Лиговский 50",
+      "requested_date": "2026-10-30",
+      "comment": null,
+      "lines": [
+        {
+          "raw_name": "бумага А4 «Север 500»",
+          "sku": "SKU-A4-500",
+          "qty": 10,
+          "unit": "пач",
+          "price": 1
+        },
+        {
+          "raw_name": "салфетки «Волна»",
+          "sku": "SKU-TISSUE",
+          "qty": 20,
+          "unit": "пач"
+        }
+      ]
+    },
+    "summary": "Заявка Ладоги: бумага А4 Север 500 и салфетки Волна на Лиговский 50 к 30.10.2026.",
+    "priority": "medium",
+    "next_action": "создать черновик заказа",
+    "escalate": false,
+    "data_gaps": [],
+    "category": "sales_order"
+  }
+}

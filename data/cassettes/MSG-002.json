@@ -1,0 +1,30 @@
+{
+  "model": "fixture/simulation",
+  "note": "Контрольная фикстура. Адрес извлечён как в письме и не подменён адресом из карточки.",
+  "extraction": {
+    "intent": "order",
+    "confidence": "medium",
+    "assumptions": [],
+    "fields": {
+      "client_name": "ИП Морозова А.В.",
+      "client_inn": null,
+      "delivery_address": "Ленина 8",
+      "requested_date": "2026-10-28",
+      "comment": null,
+      "lines": [
+        {
+          "raw_name": "салфетки «Волна»",
+          "sku": "SKU-TISSUE",
+          "qty": 15,
+          "unit": "пач"
+        }
+      ]
+    },
+    "summary": "Заявка Морозовой на салфетки Волна; адрес Ленина 8 не из карточки.",
+    "priority": "medium",
+    "next_action": "передать менеджеру",
+    "escalate": true,
+    "data_gaps": [],
+    "category": "sales_order"
+  }
+}

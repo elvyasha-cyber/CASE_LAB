@@ -1,0 +1,10 @@
+{
+  "message_id": "MSG-002",
+  "expected_decision": "escalate",
+  "reason_codes": ["address_unresolved"],
+  "client_id": "CLT-MOROZOVA",
+  "action_id": "ESC-2026-0001",
+  "lines": [{"sku": "SKU-TISSUE", "qty": 15}],
+  "total_rub": 1425,
+  "correction_to_skus": []
+}

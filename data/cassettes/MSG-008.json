@@ -1,0 +1,30 @@
+{
+  "model": "fixture/simulation",
+  "note": "Дата в прошлом сохранена как в письме и не перенесена на сегодня.",
+  "extraction": {
+    "intent": "order",
+    "confidence": "high",
+    "assumptions": [],
+    "fields": {
+      "client_name": "ООО «Ладога Офис»",
+      "client_inn": "7801000001",
+      "delivery_address": "Лиговский 50",
+      "requested_date": "2026-10-01",
+      "comment": null,
+      "lines": [
+        {
+          "raw_name": "Маркер «Контур» чёрный",
+          "sku": "SKU-MARKER",
+          "qty": 5,
+          "unit": "уп"
+        }
+      ]
+    },
+    "summary": "Заявка Ладоги на маркеры с датой в прошлом.",
+    "priority": "high",
+    "next_action": "передать менеджеру",
+    "escalate": true,
+    "data_gaps": [],
+    "category": "sales_order"
+  }
+}

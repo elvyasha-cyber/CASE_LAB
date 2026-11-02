@@ -1,0 +1,10 @@
+{
+  "message_id": "MSG-009",
+  "expected_decision": "close_no_action",
+  "reason_codes": [],
+  "client_id": null,
+  "action_id": "CLOSED-MSG-009",
+  "lines": [],
+  "total_rub": null,
+  "correction_to_skus": []
+}

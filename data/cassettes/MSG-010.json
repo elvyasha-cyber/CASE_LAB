@@ -1,0 +1,30 @@
+{
+  "model": "fixture/simulation",
+  "note": "Нарочная ошибка: при словах «бумаги А4» модель выбрала премиум и не призналась в допущении.",
+  "extraction": {
+    "intent": "order",
+    "confidence": "medium",
+    "assumptions": [],
+    "fields": {
+      "client_name": "ООО «Ладога Офис»",
+      "client_inn": "7801000001",
+      "delivery_address": "Невский 100",
+      "requested_date": "2026-11-02",
+      "comment": null,
+      "lines": [
+        {
+          "raw_name": "бумаги А4",
+          "sku": "SKU-A4-PREM",
+          "qty": 10,
+          "unit": "пач"
+        }
+      ]
+    },
+    "summary": "Заявка на бумагу А4 без линейки; название неоднозначно.",
+    "priority": "medium",
+    "next_action": "передать менеджеру",
+    "escalate": true,
+    "data_gaps": [],
+    "category": "sales_order"
+  }
+}

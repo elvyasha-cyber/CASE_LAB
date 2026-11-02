@@ -1,0 +1,8 @@
+{
+  "version": "qc-v1",
+  "prompt_version": "order-extract-v4",
+  "min_confidence": "medium",
+  "temperature": 0.2,
+  "max_horizon_days": 45,
+  "max_qty_default": 200
+}

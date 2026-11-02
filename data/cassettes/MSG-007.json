@@ -1,0 +1,36 @@
+{
+  "model": "fixture/simulation",
+  "note": "Состав извлечён верно. Сумма по каталогу выше лимита карточки, это решает политика, не модель.",
+  "extraction": {
+    "intent": "order",
+    "confidence": "high",
+    "assumptions": [],
+    "fields": {
+      "client_name": "ИП Морозова А.В.",
+      "client_inn": "470300000002",
+      "delivery_address": "Всеволожск, Дорога Жизни 12",
+      "requested_date": "2026-10-31",
+      "comment": null,
+      "lines": [
+        {
+          "raw_name": "мыло жидкое Причал 5 л",
+          "sku": "SKU-SOAP",
+          "qty": 40,
+          "unit": "канистра"
+        },
+        {
+          "raw_name": "картридж аналог CE285A",
+          "sku": "SKU-TONER",
+          "qty": 10,
+          "unit": "шт"
+        }
+      ]
+    },
+    "summary": "Крупная заявка Морозовой на мыло и картриджи к 31.10.2026.",
+    "priority": "high",
+    "next_action": "передать менеджеру",
+    "escalate": true,
+    "data_gaps": [],
+    "category": "sales_order"
+  }
+}

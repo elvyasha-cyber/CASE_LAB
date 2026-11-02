@@ -1,0 +1,10 @@
+{
+  "message_id": "MSG-005",
+  "expected_decision": "escalate",
+  "reason_codes": ["client_unresolved"],
+  "client_id": null,
+  "action_id": "ESC-2026-0003",
+  "lines": [{"sku": "SKU-SOAP", "qty": 4}],
+  "total_rub": 2560,
+  "correction_to_skus": []
+}

@@ -1,0 +1,30 @@
+{
+  "model": "fixture/simulation",
+  "note": "Нарочная галлюцинация артикула SKU-TONER-XYZ. Название в позиции однозначное.",
+  "extraction": {
+    "intent": "order",
+    "confidence": "high",
+    "assumptions": [],
+    "fields": {
+      "client_name": "ООО «Невский Порт Сервис»",
+      "client_inn": null,
+      "delivery_address": "Канонерский 5",
+      "requested_date": "2026-10-29",
+      "comment": null,
+      "lines": [
+        {
+          "raw_name": "картридж аналог CE285A",
+          "sku": "SKU-TONER-XYZ",
+          "qty": 2,
+          "unit": "шт"
+        }
+      ]
+    },
+    "summary": "Заявка Порт Сервис на картридж CE285A; в ответе модели странный артикул.",
+    "priority": "high",
+    "next_action": "создать черновик заказа",
+    "escalate": false,
+    "data_gaps": [],
+    "category": "sales_order"
+  }
+}

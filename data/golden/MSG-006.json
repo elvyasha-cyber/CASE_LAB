@@ -1,0 +1,10 @@
+{
+  "message_id": "MSG-006",
+  "expected_decision": "create_draft",
+  "reason_codes": [],
+  "client_id": "CLT-PORT",
+  "action_id": "ORD-2026-0003",
+  "lines": [{"sku": "SKU-TONER", "qty": 2}],
+  "total_rub": 4900,
+  "correction_to_skus": ["SKU-TONER"]
+}

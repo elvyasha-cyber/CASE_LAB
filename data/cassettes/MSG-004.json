@@ -1,0 +1,35 @@
+{
+  "model": "fixture/simulation",
+  "note": "Нарочная ошибка фикстуры: количества в письме нет, модель подставила 10 и уверена в этом.",
+  "extraction": {
+    "intent": "order",
+    "confidence": "high",
+    "assumptions": [
+      {
+        "field": "lines[0].qty",
+        "detail": "Количество в письме не указано, подставлено 10 как обычная отгрузка."
+      }
+    ],
+    "fields": {
+      "client_name": "ООО «Ладога Офис»",
+      "client_inn": "7801000001",
+      "delivery_address": "Лиговский 50",
+      "requested_date": "2026-10-30",
+      "comment": null,
+      "lines": [
+        {
+          "raw_name": "бумага А4 «Север 500»",
+          "sku": "SKU-A4-500",
+          "qty": 10,
+          "unit": "пач"
+        }
+      ]
+    },
+    "summary": "Заявка на бумагу без количества; модель подставила qty.",
+    "priority": "high",
+    "next_action": "передать менеджеру",
+    "escalate": true,
+    "data_gaps": [],
+    "category": "sales_order"
+  }
+}

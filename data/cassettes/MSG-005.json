@@ -1,0 +1,30 @@
+{
+  "model": "fixture/simulation",
+  "note": "Нарочная ловушка: клиента нет в реестре, но уверенность модели высокая.",
+  "extraction": {
+    "intent": "order",
+    "confidence": "high",
+    "assumptions": [],
+    "fields": {
+      "client_name": "ООО «Ромашка»",
+      "client_inn": "7701000000",
+      "delivery_address": "Москва, ул. Пример, д. 1",
+      "requested_date": "2026-11-02",
+      "comment": null,
+      "lines": [
+        {
+          "raw_name": "жидкого мыла Причал",
+          "sku": "SKU-SOAP",
+          "qty": 4,
+          "unit": "канистра"
+        }
+      ]
+    },
+    "summary": "Заявка от неизвестного клиента Ромашка на мыло Причал.",
+    "priority": "high",
+    "next_action": "передать менеджеру",
+    "escalate": true,
+    "data_gaps": [],
+    "category": "sales_order"
+  }
+}

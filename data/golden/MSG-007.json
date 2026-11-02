@@ -1,0 +1,13 @@
+{
+  "message_id": "MSG-007",
+  "expected_decision": "escalate",
+  "reason_codes": ["credit_limit"],
+  "client_id": "CLT-MOROZOVA",
+  "action_id": "ESC-2026-0004",
+  "lines": [
+    {"sku": "SKU-SOAP", "qty": 40},
+    {"sku": "SKU-TONER", "qty": 10}
+  ],
+  "total_rub": 50100,
+  "correction_to_skus": []
+}

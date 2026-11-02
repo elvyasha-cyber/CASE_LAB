@@ -1,0 +1,16 @@
+{
+  "model": "fixture/simulation",
+  "note": "Письмо без новой поставки.",
+  "extraction": {
+    "intent": "not_order",
+    "confidence": "high",
+    "assumptions": [],
+    "fields": null,
+    "summary": "Благодарность за прошлую поставку, новой заявки нет.",
+    "priority": "high",
+    "next_action": "закрыть без заказа",
+    "escalate": false,
+    "data_gaps": [],
+    "category": "non_order"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "message_id": "MSG-008",
+  "expected_decision": "escalate",
+  "reason_codes": ["date_in_past"],
+  "client_id": "CLT-LADOGA",
+  "action_id": "ESC-2026-0005",
+  "lines": [{"sku": "SKU-MARKER", "qty": 5}],
+  "total_rub": 275,
+  "correction_to_skus": []
+}

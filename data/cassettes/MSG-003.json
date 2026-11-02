@@ -1,0 +1,36 @@
+{
+  "model": "fixture/simulation",
+  "note": "Контрольная фикстура. Срочность не отменяет проверку, но письмо полное.",
+  "extraction": {
+    "intent": "order",
+    "confidence": "high",
+    "assumptions": [],
+    "fields": {
+      "client_name": "ООО «Невский Порт Сервис»",
+      "client_inn": "7802000002",
+      "delivery_address": "Канонерский остров 5",
+      "requested_date": "2026-10-27",
+      "comment": "срочно",
+      "lines": [
+        {
+          "raw_name": "перчатки нитриловые M",
+          "sku": "SKU-GLOVES",
+          "qty": 30,
+          "unit": "уп"
+        },
+        {
+          "raw_name": "мешки для мусора 120 л",
+          "sku": "SKU-SACK",
+          "qty": 10,
+          "unit": "рул"
+        }
+      ]
+    },
+    "summary": "Срочная заявка Порт Сервис: перчатки и мешки на Канонерский к 27.10.2026.",
+    "priority": "high",
+    "next_action": "создать черновик заказа",
+    "escalate": false,
+    "data_gaps": [],
+    "category": "sales_order"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "message_id": "MSG-004",
+  "expected_decision": "escalate",
+  "reason_codes": ["assumption_blocking"],
+  "client_id": "CLT-LADOGA",
+  "action_id": "ESC-2026-0002",
+  "lines": [{"sku": "SKU-A4-500", "qty": 10}],
+  "total_rub": 4200,
+  "correction_to_skus": []
+}
