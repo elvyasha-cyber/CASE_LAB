@@ -1,4 +1,4 @@
-"""Команды кейса: demo для записи экрана, live/serve — боевой контур с точками подключения."""
+"""Команды кейса: demo на фикстурах, live и serve — боевой контур с точками подключения."""
 
 from __future__ import annotations
 
@@ -23,7 +23,7 @@ def main(argv: list[str] | None = None) -> int:
     )
     sub = parser.add_subparsers(dest="command", required=True)
 
-    demo = sub.add_parser("demo", help="Запись демо: фикстуры LLM, файловый вход, отчёт.")
+    demo = sub.add_parser("demo", help="Прогон на фикстурах: файловый вход и отчёт.")
     demo.add_argument("--inbox", type=Path, default=None)
     demo.add_argument("--out", type=Path, default=None)
 

@@ -98,7 +98,7 @@ class LiveExtractor:
         if not self.api_key:
             raise RuntimeError(
                 "CASE_LLM=live требует OPENAI_API_KEY в .env (ключ Proxy API). "
-                "Для записи демо оставьте CASE_LLM=replay."
+                "Чтобы не вызывать модель, оставьте CASE_LLM=replay."
             )
 
     def extract(self, email: InboundEmail, catalog: Catalog, registry: Registry) -> ExtractResult:

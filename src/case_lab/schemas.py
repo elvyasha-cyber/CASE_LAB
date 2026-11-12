@@ -48,7 +48,7 @@ class OrderFields(BaseModel):
 
 
 class Extraction(BaseModel):
-    """Схема курса: структурирование входа + сигнал эскалации. Политика может усилить escalate."""
+    """Структурирование входа и сигнал эскалации. Политика может усилить escalate."""
 
     model_config = ConfigDict(extra="ignore")
 
